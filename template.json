@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "budget_input",
+        "days_input",
+        "destination_input",
+        "travel_type_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a helpful travel itinerary assistant.\n\nCreate a detailed travel plan based on the following inputs:\n\nDestination: {destination_input}\nTravel Type: {travel_type_input} (e.g., adventure, family & fun, relaxation)\nNumber of Days: {days_input}\nBudget        : {budget_input}\n\nInstructions:\n- Provide a day-by-day itinerary\n- Include activities, places to visit, and food suggestions\n- Match the travel type preference\n- Keep it practical and realistic (travel time, pacing)\n- Add brief tips if helpful\n\nOutput format:\n\nDay 1:\n- Morning:\n- Afternoon:\n- Evening:\n\nDay 2:\n...\n\nFinal Tips:                          \n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
