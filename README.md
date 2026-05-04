@@ -11,7 +11,7 @@ invoke OpenAI LLMs and get responses from them.
 ## Features
 1) Created simple "Travel Assistant tool" where user will provide inputs like destination,holiday type(adventours,fun...),no of days and budget
     and these will be passed to static template and then invoke the LLM to proide the response.
-2) Created simple in -terminal chatbot where user will ask questions and LLM model will provide response, here created 3 different types of messages to store as chat_history
+2) Created simple in -terminal chatbot where user will ask questions and LLM model will provide response by using the chains for pipeline creation (template -> invoke), here created 3 different types of messages to store as chat_history
      a) System Message
      b) Human Message
      c) AI Message
