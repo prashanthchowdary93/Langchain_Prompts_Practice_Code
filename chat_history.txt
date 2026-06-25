@@ -1,0 +1,2 @@
+HumanMessage(content="Please provide extra discount on the baby rocker product for product_id=asd789-oiu54")
+AIMessage(content="Yes sure let me discuss with my Product manager and let you know in few hours/days")

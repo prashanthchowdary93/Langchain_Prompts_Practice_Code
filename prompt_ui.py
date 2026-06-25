@@ -31,4 +31,5 @@ if st.button('Plan Iternary'):
   }
  )
  st.write(result.content)
+ 
    
